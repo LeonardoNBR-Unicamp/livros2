@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Literatura2
+        </title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="function.js"></script>
+    </head>
+    <body>
+     
+     
+        <h2>Adicionar obra</h2>
+        <form id="postForm">
+            <div>
+        <label for="titulo">titulo:</label>
+        <input type="text" id ="titulo" name="titulo"/></div>
+        <div>
+        <label for="autor ">autor:</label>
+        <input type="text" id ="autor" name="autor"/>
+        </div>
+        <div id= "botao">
+        <button type="submit" onclick="return submitPost()">Submit</button></div>
+        </form>
+
+        <h2>Atualizar obra</h2>
+        <form id="putForm">
+        <div>
+        <label for="id">Id:</label>
+            <input type="text" name="id"/>
+         </div>
+        
+        <div>
+            <label for="titulo">titulo:</label>
+            <input type="text" id ="titulo2" name="titulo2"/>
+        </div>
+            <div>
+            <label for="autor ">autor:</label>
+            <input type="text" id ="autor2" name="autor2"/>
+            </div>
+            <div id= "botao">
+         <button type="submit" onclick="return submitPut()">Submit</button></div>
+         </form>
+
+         <h2>Deletar obra</h2>
+         <form id="deleteForm">
+            <label for="id2">Id:</label>
+            <input type="text" name="id2"/>
+         </div>
+        <div id= "botao">
+          <button type="submit" onclick="return submitDelete()">Submit</button></div>
+          </form>
+
+    </body>
+</html> 
