@@ -70,9 +70,10 @@ app.delete('/obras/:id',
 );
 
 const mongodb = require('mongodb');
-const password = "oLg7rGPRAlfdO8CI";
+const password = "WPntNHPnm2Tx5Sm";
 const connectionString = `mongodb+srv://meuusuario:${password}@cluster0.tyg9e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 // const password = process.env.PASSWORD || "asdf";
+
 
 const options = {
     useNewUrlParser: true,

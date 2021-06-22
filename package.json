@@ -1,24 +1,26 @@
 {
-  "name": "Literatura2",
+  "name": "Literatura",
   "version": "1.0.0",
   "description": "",
-  "main": "function.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeonardoNBR-Unicamp/livros2.git"
+    "url": "git+https://github.com/LeonardoNBR-Unicamp/tt905livrosleo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LeonardoNBR-Unicamp/livros2/issues"
+    "url": "https://github.com/LeonardoNBR-Unicamp/tt905livrosleo/issues"
   },
-  "homepage": "https://github.com/LeonardoNBR-Unicamp/livros2#readme",
+  "homepage": "https://github.com/LeonardoNBR-Unicamp/tt905livrosleo#readme",
   "dependencies": {
-    "cors": "^2.8.5"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
