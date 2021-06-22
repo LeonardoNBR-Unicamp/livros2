@@ -17,7 +17,7 @@ async function callFetchWithPost(titulo, autor){
     }
      await fetch (url,options);
 }
-    async function callFetchWithPut(id, titulo2,detalhe2){
+    async function callFetchWithPut(id, titulo2,autor2){
         const options = {
             method : 'PUT',
             mode: 'cors',
@@ -28,7 +28,7 @@ async function callFetchWithPost(titulo, autor){
             body :JSON.stringify({
                 banco_dados:{
                     'titulo': titulo2,
-                    'autor': detalhe2
+                    'autor': autor2
                 }
             })
         }
@@ -73,8 +73,8 @@ function submitPut(){
     const form = document.forms['putForm'];  
     const id = form["id"].value;  
     const titulo2 = form["titulo2"].value;
-    const detalhe2 = form["detalhe2"].value;
-    callFetchWithPut(id, titulo2,detalhe2);
+    const autor2 = form["autor2"].value;
+    callFetchWithPut(id, titulo2,autor2);
     return false; // Evitar o reload da tela.
 }
 
