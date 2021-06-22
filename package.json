@@ -1,17 +1,24 @@
 {
-  "name": "atividade-9",
+  "name": "Literatura2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongodb": "^3.6.9"
-  },
-  "devDependencies": {},
+  "main": "function.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoNBR-Unicamp/livros2.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoNBR-Unicamp/livros2/issues"
+  },
+  "homepage": "https://github.com/LeonardoNBR-Unicamp/livros2#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
 }

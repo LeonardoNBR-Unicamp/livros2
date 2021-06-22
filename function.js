@@ -1,5 +1,5 @@
 
-let url = "https://tt905livrosleo.herokuapp.com/obras"
+let url = "https://tt905livrosleo.herokuapp.com/database/"
 
 
 async function callFetchWithPost(titulo, autor){
