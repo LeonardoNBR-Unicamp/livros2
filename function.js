@@ -33,7 +33,7 @@ async function callFetchWithPost(titulo, autor){
                 }
             })
         }
-        await fetch(`${url}/${id}`, options);
+        await fetch(`${url}${id}`, options);
 //         .then (async (res)=>{
 //             if (res.status >= 200 && res.status <= 300)
 //             console.log('deu bom')
@@ -51,7 +51,7 @@ async function callFetchWithPost(titulo, autor){
             'content-type' : 'application/json' 
         }
     }
-     await fetch(`${url}/${id}`, options);
+     await fetch(`${url}${id}`, options);
         //   .then (async (res)=>{
         //             if (res.status >= 200 && res.status <= 300)
         //             console.log('deu bom')
