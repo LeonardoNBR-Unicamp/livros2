@@ -27,10 +27,10 @@ async function callFetchWithPost(titulo, autor){
                 'content-type' : 'application/json'            
             }, 
             body :JSON.stringify({
-                banco_dados:{
+               
                     'titulo': titulo2,
                     'autor': autor2
-                }
+                
             })
         }
         await fetch(`${url}/${id}`, options);
